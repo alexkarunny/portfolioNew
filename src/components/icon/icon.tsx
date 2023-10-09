@@ -1,8 +1,9 @@
 import React from "react";
 import iconsSprite from "assets/images/icons-sprite.svg";
+import { IconsTypes } from "assets/types/types";
 
 type Props = {
-  iconId: string;
+  iconId: IconsTypes;
   width?: string;
   height?: string;
   viewBox?: string;

@@ -6,7 +6,7 @@ import { FlexWrapper } from "components/common/flex-wrapper";
 export const Main = () => {
   return (
     <StyledMain>
-      <FlexWrapper align={"center"} justify={"space-around"}>
+      <FlexWrapper align={"center"} justify={"space-evenly"}>
         <div>
           <span>Hi</span>
           <Name>My name is Alex Karunny</Name>

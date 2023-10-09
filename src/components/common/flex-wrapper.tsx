@@ -1,10 +1,24 @@
 import styled from "styled-components";
 
 type Props = {
-  direction?: string;
-  justify?: "space-around";
-  align?: "center";
-  wrap?: string;
+  direction?: "row" | "row-reverse" | "column" | "column-reverse";
+  justify?: "start" | "space-around" | "space-between" | "center" | "space-evenly";
+  align?:
+    | "normal"
+    | "center"
+    | "flex-start"
+    | "flex-end"
+    | "start"
+    | "end"
+    | "self-start"
+    | "self-end"
+    | "baseline"
+    | "first baseline"
+    | "last baseline"
+    | "stretch"
+    | "safe"
+    | "unsafe";
+  wrap?: "nowrap" | "wrap" | "wrap-reverse";
 };
 
 export const FlexWrapper = styled.div<Props>`
