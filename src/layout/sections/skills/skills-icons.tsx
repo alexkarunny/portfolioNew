@@ -12,6 +12,7 @@ export const SkillsIcons = () => {
         <Skill iconId={"html"} />
         <Skill iconId={"css"} />
         <Skill iconId={"js"} />
+        <Skill iconId={"react"} />
         <Skill iconId={"redux"} />
         <Skill iconId={"sass"} />
         <Skill iconId={"git"} />

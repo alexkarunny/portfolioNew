@@ -16,6 +16,6 @@ export const Skill: React.FC<Props> = ({ iconId }) => {
 };
 
 const StyledSkill = styled.div`
-  width: 23%;
+  width: 18%;
   background-color: #c9b7b7;
 `;
