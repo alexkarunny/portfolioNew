@@ -3,6 +3,7 @@ import { Main } from "layout/sections/main/main";
 import { SkillsIcons } from "layout/sections/skills/skills-icons";
 import React from "react";
 import { Projects } from "layout/sections/projects/projects";
+import { Gallery } from "layout/sections/gallery/gallery";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Main />
       <SkillsIcons />
       <Projects />
+      <Gallery />
     </div>
   );
 }

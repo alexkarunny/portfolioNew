@@ -9,4 +9,5 @@ export type IconsTypes =
   | "github"
   | "social-github"
   | "social-linkedin"
-  | "figma";
+  | "figma"
+  | "typescript";

@@ -18,6 +18,7 @@ export const SkillsIcons = () => {
         <Skill iconId={"git"} />
         <Skill iconId={"github"} />
         <Skill iconId={"figma"} />
+        <Skill iconId={"typescript"} />
       </FlexWrapper>
     </StyledSkills>
   );
