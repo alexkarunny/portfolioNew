@@ -10,4 +10,5 @@ export type IconsTypes =
   | "social-github"
   | "social-linkedin"
   | "figma"
-  | "typescript";
+  | "typescript"
+  | "postman";

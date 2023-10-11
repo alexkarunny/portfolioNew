@@ -11,14 +11,15 @@ export const SkillsIcons = () => {
       <FlexWrapper justify={"space-between"} wrap={"wrap"}>
         <Skill iconId={"html"} />
         <Skill iconId={"css"} />
+        <Skill iconId={"sass"} />
         <Skill iconId={"js"} />
+        <Skill iconId={"typescript"} />
         <Skill iconId={"react"} />
         <Skill iconId={"redux"} />
-        <Skill iconId={"sass"} />
         <Skill iconId={"git"} />
         <Skill iconId={"github"} />
         <Skill iconId={"figma"} />
-        <Skill iconId={"typescript"} />
+        <Skill iconId={"postman"} />
       </FlexWrapper>
     </StyledSkills>
   );
