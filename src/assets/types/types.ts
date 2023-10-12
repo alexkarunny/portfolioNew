@@ -11,4 +11,7 @@ export type IconsTypes =
   | "social-linkedin"
   | "figma"
   | "typescript"
-  | "postman";
+  | "postman"
+  | "building"
+  | "dates"
+  | "location";

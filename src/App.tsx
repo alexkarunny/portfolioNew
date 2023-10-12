@@ -6,12 +6,14 @@ import { Projects } from "layout/sections/projects/projects";
 import { Gallery } from "layout/sections/gallery/gallery";
 import { Contact } from "layout/sections/contact/contact";
 import { Slogan } from "layout/sections/slogan/slogan";
+import { AboutMe } from "layout/sections/about/about-me";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Main />
+      <AboutMe />
       <SkillsIcons />
       <Projects />
       <Gallery />
