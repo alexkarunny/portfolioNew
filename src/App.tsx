@@ -7,6 +7,7 @@ import { Gallery } from "layout/sections/gallery/gallery";
 import { Contact } from "layout/sections/contact/contact";
 import { Slogan } from "layout/sections/slogan/slogan";
 import { AboutMe } from "layout/sections/about/about-me";
+import { Footer } from "layout/footer/footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Gallery />
       <Contact />
       <Slogan />
+      <Footer />
     </div>
   );
 }
