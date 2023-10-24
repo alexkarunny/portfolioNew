@@ -21,6 +21,11 @@ export const Main = () => {
           </div>
           <PhotoWrapper>
             <Photo src={photo} />
+            <div className={"frame first"}></div>
+            <div className={"frame second"}></div>
+            <div className={"frame third"}></div>
+            <div className={"frame forth"}></div>
+            <div className={"frame fifth"}></div>
           </PhotoWrapper>
         </FlexWrapper>
       </Container>
@@ -36,28 +41,51 @@ const StyledMain = styled.div`
 
 const PhotoWrapper = styled.div`
   position: relative;
-  width: 358px;
-  height: 358px;
+  max-width: 367px;
+  width: 100%;
+  height: 367px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-image: linear-gradient(${theme.colors.secondaryAccent}, ${theme.colors.primaryAccent});
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  &::before {
+  & .frame {
     content: "";
     position: absolute;
     display: inline-block;
     width: 444px;
     height: 444px;
-    border: 1px solid #161616;
+    border: 1px solid;
+    border-image: linear-gradient(rgba(22, 22, 22, 1), rgba(255, 255, 255, 0)) 1;
+    opacity: 0.1;
+  }
+  & .first {
+    transform: rotate(30deg);
+  }
+  & .second {
+    transform: rotate(45deg);
+  }
+  & .third {
+    transform: rotate(60deg);
+  }
+  & .forth {
+    transform: rotate(75deg);
+  }
+  & .fifth {
+    transform: rotate(90deg);
   }
 `;
 
 const Photo = styled.img`
-  width: 358px;
-  height: 358px;
+  width: 349px;
+  height: 349px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  border: 9px solid rgba(19, 176, 245, 1);
   border-radius: 50%;
   object-fit: cover;
-  background-position-y: -20px;
 `;
 
 const MainTitle = styled.h1`
@@ -68,10 +96,12 @@ const MainTitle = styled.h1`
 `;
 
 const Name = styled.h2`
-  color: rgba(19, 176, 245, 1);
+  color: transparent;
   font-weight: bold;
   font-size: 58px;
   letter-spacing: -1px;
+  background-image: linear-gradient(to right, ${theme.colors.primaryAccent}, ${theme.colors.secondaryAccent});
+  -webkit-background-clip: text;
 `;
 
 const Greeting = styled.span`
