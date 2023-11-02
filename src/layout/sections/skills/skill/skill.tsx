@@ -15,6 +15,4 @@ export const Skill: React.FC<Props> = ({ iconId }) => {
   );
 };
 
-const StyledSkill = styled.div`
-  background-color: #c9b7b7;
-`;
+const StyledSkill = styled.div``;

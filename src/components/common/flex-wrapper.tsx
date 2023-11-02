@@ -19,6 +19,7 @@ type Props = {
     | "safe"
     | "unsafe";
   wrap?: "nowrap" | "wrap" | "wrap-reverse";
+  gap?: string;
 };
 
 export const FlexWrapper = styled.div<Props>`
@@ -28,4 +29,5 @@ export const FlexWrapper = styled.div<Props>`
   align-items: ${(props) => props.align || "stretch"};
   flex-wrap: ${(props) => props.wrap || "nowrap"};
   height: 100%;
+  gap: ${(props) => props.gap || "0"};
 `;
