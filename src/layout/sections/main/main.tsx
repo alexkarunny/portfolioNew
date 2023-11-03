@@ -17,7 +17,7 @@ export const Main = () => {
               My name is
             </Greeting>
             <Name>Alex Karunny</Name>
-            <MainTitle>Front-end Developer</MainTitle>
+            <MainTitle>Frontend Developer</MainTitle>
           </div>
           <PhotoWrapper>
             <Photo src={photo} />
@@ -93,6 +93,7 @@ const MainTitle = styled.h1`
   font-weight: bold;
   font-size: 58px;
   letter-spacing: -1px;
+  text-transform: capitalize;
 `;
 
 const Name = styled.h2`
