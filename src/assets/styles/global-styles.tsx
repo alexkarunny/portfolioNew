@@ -22,6 +22,7 @@ export const GlobalStyles = createGlobalStyle`
   
   a{
     text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
   }
 
   ul{
@@ -34,5 +35,9 @@ export const GlobalStyles = createGlobalStyle`
   }
   section {
     padding: 100px 0;
+  }
+  p{
+    font-size: 18px;
+    line-height: 1.4;
   }
 `;

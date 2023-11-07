@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { SocialIcons } from "components/social-icons/social-icons";
 import { Logo } from "components/logo/logo";
 import { FlexWrapper } from "components/common/flex-wrapper";
-import { Menu } from "components/menu/menu";
+import { TabMenu } from "layout/sections/projects/tab-menu/tab-menu";
 
 const menuItems = ["home", "about", "tech stack", "projects", "contact"];
 
@@ -18,7 +18,7 @@ export const Footer = () => {
       </FlexWrapper>
       <DividingStrip></DividingStrip>
       <FlexWrapper justify={"space-between"}>
-        <Menu menuItems={menuItems} />
+        <TabMenu menuItems={menuItems} />
         <Copyright>© 2023, Alex Karunny</Copyright>
       </FlexWrapper>
     </StyledFooter>

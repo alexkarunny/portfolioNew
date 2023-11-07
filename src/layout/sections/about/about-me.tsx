@@ -56,8 +56,6 @@ const StyledAboutMe = styled.section``;
 const Text = styled.p`
   max-width: 700px;
   width: 100%;
-  font-size: 18px;
-  line-height: 1.4;
 `;
 const SubTitle = styled.h3`
   color: ${theme.colors.secondaryFont};
